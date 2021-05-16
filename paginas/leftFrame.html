@@ -1,0 +1,68 @@
+<html>
+
+<head>
+  <title>leftFrame</title>
+  <script type="text/javascript">
+    function MM_swapImgRestore() { //v3.0
+      var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+    }
+    function MM_preloadImages() { //v3.0
+      var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+        var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+        if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+    }
+    
+    function MM_findObj(n, d) { //v4.01
+      var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+        d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+      if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+      for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+      if(!x && d.getElementById) x=d.getElementById(n); return x;
+    }
+    
+    function MM_swapImage() { //v3.0
+      var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+       if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+    }
+        </script>
+</head>
+<body leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" >
+
+  <ol type="">
+     </ol>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+      <table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="180" bgcolor="#07024e">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td><a href="primero.html" target="mainFrame" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('boton1','','imagenes/Botones/b11.png',1)"><img src="imagenes/Botones/b1.png" name="boton1" width="180" height="55" id="boton1"></a></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td><a href="segundo.html" target="mainFrame" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('boton2','','imagenes/Botones/b22.png',1)"><img src="imagenes/Botones/b2.png" name="boton2" width="180" height="55" id="boton2"></a></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td><a href="tercero.html" target="mainFrame" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('boton3','','imagenes/Botones/b33.png',1)"><img src="imagenes/Botones/b3.png" name="boton3" width="180" height="55" id="boton3"></a></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td><a href="cuarto.html" target="mainFrame" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('boton4','','imagenes/Botones/b44.png',1)"><img src="imagenes/Botones/b4.png" name="boton4" width="180" height="55" id="boton4"></a></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td><a href="quinto.html" target="mainFrame"  onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('boton5','','imagenes/Botones/b55.png',1)"><img src="imagenes/Botones/b5.png" name="boton5" width="180" height="55" id="boton5"></a></td>
+                </tr>
+              </table>
+    </table>
+</body>
+</html>
